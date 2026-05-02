@@ -2,6 +2,13 @@ import json
 import os
 
 store = {}
+_loaded = False
+
+def ensure_loaded():
+    global _loaded
+    if not _loaded:
+        load_all()
+        _loaded = True
 
 def load_all():
     data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')

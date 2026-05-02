@@ -1,19 +1,18 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.base import BaseHTTPMiddleware
-from contextlib import asynccontextmanager
 import os
 
 from routers import history, groups, teams, matches, bracket
-from services.data_loader import load_all
+from services.data_loader import ensure_loaded
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    load_all()
-    yield
+app = FastAPI(title="Copa do Mundo 2026 API")
 
-app = FastAPI(title="Copa do Mundo 2026 API", lifespan=lifespan)
+class EnsureDataMiddleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next):
+        ensure_loaded()
+        return await call_next(request)
 
 class NoCacheMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request, call_next):
@@ -23,6 +22,7 @@ class NoCacheMiddleware(BaseHTTPMiddleware):
         return response
 
 app.add_middleware(NoCacheMiddleware)
+app.add_middleware(EnsureDataMiddleware)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
