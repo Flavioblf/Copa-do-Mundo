@@ -15,20 +15,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Verificar se a Copa já começou
+        id: check
+        run: |
+          COPA_START="2026-06-11"
+          TODAY=$(date -u +%Y-%m-%d)
+          if [[ "$TODAY" < "$COPA_START" ]]; then
+            echo "Copa ainda não começou ($TODAY < $COPA_START). Nada a fazer."
+            echo "ativa=false" >> $GITHUB_OUTPUT
+          else
+            echo "Copa em andamento. Atualizando resultados."
+            echo "ativa=true" >> $GITHUB_OUTPUT
+          fi
+
       - name: Checkout
+        if: steps.check.outputs.ativa == 'true'
         uses: actions/checkout@v4
 
       - name: Python 3.11
+        if: steps.check.outputs.ativa == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Atualizar resultados
+        if: steps.check.outputs.ativa == 'true'
         env:
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: python scripts/update_scores.py
 
       - name: Commit e push (somente se houve mudanças)
+        if: steps.check.outputs.ativa == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
