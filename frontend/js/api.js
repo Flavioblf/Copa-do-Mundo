@@ -1,6 +1,10 @@
 const BASE = '/api';
 const cache = new Map();
 
+export function clearCache() {
+  cache.clear();
+}
+
 async function get(path) {
   if (cache.has(path)) return cache.get(path);
   const res = await fetch(BASE + path);

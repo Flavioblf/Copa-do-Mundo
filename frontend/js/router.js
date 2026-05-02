@@ -4,6 +4,7 @@ import * as calendar from './modules/calendar.js';
 import * as teams    from './modules/teams.js';
 import * as history  from './modules/history.js';
 import * as bracket  from './modules/bracket.js';
+import { clearCache } from './api.js';
 
 const routes = {
   '/':           home,
@@ -13,6 +14,8 @@ const routes = {
   '/historico':  history,
   '/chave':      bracket,
 };
+
+const REFRESH_INTERVAL = 60_000; // 60 segundos
 
 function getHash() {
   const h = window.location.hash.replace('#', '') || '/';
@@ -25,10 +28,27 @@ function getHash() {
 
 let container;
 let onNavigate;
+let _refreshTimer = null;
+let _activeMod    = null;
+let _activeParams = null;
+
+async function silentRefresh() {
+  if (document.visibilityState === 'hidden') return;
+  clearCache();
+  try {
+    await _activeMod.render(container, _activeParams);
+  } catch (e) {
+    console.warn('Auto-refresh falhou:', e);
+  }
+}
 
 async function navigate() {
+  clearInterval(_refreshTimer);
+
   const { path, params } = getHash();
   const mod = routes[path] || routes['/'];
+  _activeMod    = mod;
+  _activeParams = params;
 
   container.innerHTML = '<div class="loading-spinner"></div>';
   if (onNavigate) onNavigate(path);
@@ -44,6 +64,8 @@ async function navigate() {
       </div>`;
     console.error(e);
   }
+
+  _refreshTimer = setInterval(silentRefresh, REFRESH_INTERVAL);
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
