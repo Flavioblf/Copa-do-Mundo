@@ -38,3 +38,8 @@
   border-top-color: var(--gold); border-radius: 50%;
   animation: spin 0.8s linear infinite; margin: var(--sp-8) auto;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .loading-spinner { animation: spin 1.5s linear infinite; }
+}

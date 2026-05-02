@@ -91,3 +91,9 @@
 .quick-nav-icon svg { width: 28px; height: 28px; color: var(--gold); transition: transform var(--transition); }
 .quick-nav-item:hover .quick-nav-icon svg { transform: scale(1.15); }
 .quick-nav-label { font-size: var(--text-sm); font-weight: 600; color: var(--text-secondary); }
+
+@media (max-width: 640px) {
+  .hero-next-match { padding: var(--sp-4); }
+  .hero-subtitle   { margin-bottom: var(--sp-6); }
+  .hero-dates      { margin-bottom: var(--sp-4); }
+}

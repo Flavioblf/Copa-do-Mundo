@@ -91,6 +91,7 @@
 
 /* SECTION */
 .section { padding: var(--sp-12) 0; }
+@media (max-width: 767px) { .section { padding: var(--sp-8) 0; } }
 .section--alt { background: var(--bg-secondary); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .section-title {
   font-family: var(--font-display); font-size: var(--text-3xl); color: var(--gold);
@@ -122,3 +123,7 @@
 }
 .page-header h1 { font-family: var(--font-display); font-size: var(--text-4xl); color: var(--gold); }
 .page-header p { color: var(--text-secondary); margin-top: var(--sp-2); }
+@media (max-width: 640px) {
+  .page-header { padding: var(--sp-8) 0 var(--sp-6); }
+  .page-header h1 { font-size: var(--text-3xl); }
+}
