@@ -1,0 +1,18 @@
+[
+  {"id":"metlife","name":"MetLife Stadium","city":"Nova York/Nova Jersey","country":"Estados Unidos","country_code":"us","capacity":82500,"matches":8},
+  {"id":"sofi","name":"SoFi Stadium","city":"Los Angeles","country":"Estados Unidos","country_code":"us","capacity":70240,"matches":8},
+  {"id":"att","name":"AT&T Stadium","city":"Dallas","country":"Estados Unidos","country_code":"us","capacity":80000,"matches":8},
+  {"id":"levis","name":"Levi's Stadium","city":"San Francisco","country":"Estados Unidos","country_code":"us","capacity":68500,"matches":6},
+  {"id":"lumen","name":"Lumen Field","city":"Seattle","country":"Estados Unidos","country_code":"us","capacity":69000,"matches":6},
+  {"id":"arrowhead","name":"Arrowhead Stadium","city":"Kansas City","country":"Estados Unidos","country_code":"us","capacity":76416,"matches":6},
+  {"id":"mercedes","name":"Mercedes-Benz Stadium","city":"Atlanta","country":"Estados Unidos","country_code":"us","capacity":71000,"matches":6},
+  {"id":"hardrock","name":"Hard Rock Stadium","city":"Miami","country":"Estados Unidos","country_code":"us","capacity":64767,"matches":6},
+  {"id":"lincoln","name":"Lincoln Financial Field","city":"Filadélfia","country":"Estados Unidos","country_code":"us","capacity":69796,"matches":6},
+  {"id":"nrg","name":"NRG Stadium","city":"Houston","country":"Estados Unidos","country_code":"us","capacity":72220,"matches":6},
+  {"id":"gillette","name":"Gillette Stadium","city":"Boston","country":"Estados Unidos","country_code":"us","capacity":65878,"matches":6},
+  {"id":"azteca","name":"Estádio Azteca","city":"Cidade do México","country":"México","country_code":"mx","capacity":87523,"matches":5},
+  {"id":"akron","name":"Estádio Akron","city":"Guadalajara","country":"México","country_code":"mx","capacity":49850,"matches":5},
+  {"id":"bbva","name":"Estádio BBVA","city":"Monterrey","country":"México","country_code":"mx","capacity":53500,"matches":5},
+  {"id":"bmfield","name":"BMO Field","city":"Toronto","country":"Canadá","country_code":"ca","capacity":45000,"matches":5},
+  {"id":"bcplace","name":"BC Place","city":"Vancouver","country":"Canadá","country_code":"ca","capacity":54500,"matches":6}
+]

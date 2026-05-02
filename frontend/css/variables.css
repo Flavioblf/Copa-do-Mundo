@@ -1,0 +1,63 @@
+:root {
+  --bg-primary:    #0D0F1A;
+  --bg-secondary:  #161829;
+  --bg-elevated:   #1E2035;
+  --bg-card:       #181A2E;
+
+  --gold:          #C9A84C;
+  --gold-light:    #E8C96A;
+  --gold-dim:      #8A6E2F;
+
+  --live:          #E94560;
+  --live-dim:      rgba(233,69,96,0.15);
+  --success:       #2ECC71;
+  --success-dim:   rgba(46,204,113,0.15);
+  --warning:       #F39C12;
+  --warning-dim:   rgba(243,156,18,0.15);
+  --info:          #3498DB;
+
+  --text-primary:  #F0F0F5;
+  --text-secondary:#A0AEC0;
+  --text-muted:    #6B7280;
+  --border:        rgba(255,255,255,0.07);
+
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body:    'Inter', sans-serif;
+
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.875rem;
+  --text-4xl:  2.25rem;
+  --text-hero: clamp(3rem, 7vw, 6rem);
+
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-5:  20px;
+  --sp-6:  24px;
+  --sp-8:  32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+
+  --radius-sm: 6px;
+  --radius:    12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+  --shadow:    0 4px 16px rgba(0,0,0,0.4);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
+  --shadow-gold: 0 0 20px rgba(201,168,76,0.2);
+
+  --transition: 250ms ease;
+  --transition-fast: 150ms ease;
+
+  --container: 1280px;
+  --nav-h: 64px;
+}

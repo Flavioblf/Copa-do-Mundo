@@ -1,0 +1,90 @@
+[
+  {"id":1,"date":"2026-06-11T19:00:00-03:00","home":"mexico","away":"africa-do-sul","stadium":"azteca","group":"A","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":2,"date":"2026-06-11T23:00:00-03:00","home":"coreia-do-sul","away":"republica-tcheca","stadium":"akron","group":"A","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+
+  {"id":3,"date":"2026-06-12T16:00:00-03:00","home":"canada","away":"bosnia-herzegovina","stadium":"bmfield","group":"B","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":4,"date":"2026-06-12T22:00:00-03:00","home":"eua","away":"paraguai","stadium":"sofi","group":"D","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+
+  {"id":5,"date":"2026-06-13T16:00:00-03:00","home":"qatar","away":"suica","stadium":"levis","group":"B","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":6,"date":"2026-06-13T19:00:00-03:00","home":"brasil","away":"marrocos","stadium":"metlife","group":"C","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":7,"date":"2026-06-13T22:00:00-03:00","home":"haiti","away":"escocia","stadium":"gillette","group":"C","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+
+  {"id":8,"date":"2026-06-14T01:00:00-03:00","home":"australia","away":"turquia","stadium":"bcplace","group":"D","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":9,"date":"2026-06-14T14:00:00-03:00","home":"alemanha","away":"curacao","stadium":"nrg","group":"E","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":10,"date":"2026-06-14T17:00:00-03:00","home":"paises-baixos","away":"japao","stadium":"att","group":"F","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":11,"date":"2026-06-14T20:00:00-03:00","home":"costa-do-marfim","away":"equador","stadium":"lincoln","group":"E","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":12,"date":"2026-06-14T23:00:00-03:00","home":"suecia","away":"tunisia","stadium":"bbva","group":"F","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+
+  {"id":13,"date":"2026-06-15T13:00:00-03:00","home":"espanha","away":"cabo-verde","stadium":"mercedes","group":"H","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":14,"date":"2026-06-15T16:00:00-03:00","home":"belgica","away":"egito","stadium":"lumen","group":"G","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":15,"date":"2026-06-15T19:00:00-03:00","home":"arabia-saudita","away":"uruguai","stadium":"hardrock","group":"H","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":16,"date":"2026-06-15T22:00:00-03:00","home":"ira","away":"nova-zelandia","stadium":"sofi","group":"G","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+
+  {"id":17,"date":"2026-06-16T16:00:00-03:00","home":"franca","away":"senegal","stadium":"metlife","group":"I","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":18,"date":"2026-06-16T19:00:00-03:00","home":"iraque","away":"noruega","stadium":"gillette","group":"I","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":19,"date":"2026-06-16T22:00:00-03:00","home":"argentina","away":"argelia","stadium":"arrowhead","group":"J","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+
+  {"id":20,"date":"2026-06-17T01:00:00-03:00","home":"austria","away":"jordania","stadium":"levis","group":"J","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":21,"date":"2026-06-17T14:00:00-03:00","home":"portugal","away":"rd-congo","stadium":"nrg","group":"K","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":22,"date":"2026-06-17T17:00:00-03:00","home":"england","away":"croacia","stadium":"att","group":"L","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":23,"date":"2026-06-17T20:00:00-03:00","home":"gana","away":"panama","stadium":"bmfield","group":"L","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+  {"id":24,"date":"2026-06-17T23:00:00-03:00","home":"uzbequistao","away":"colombia","stadium":"azteca","group":"K","stage":"fase-de-grupos","matchday":1,"home_score":null,"away_score":null},
+
+  {"id":25,"date":"2026-06-18T13:00:00-03:00","home":"republica-tcheca","away":"africa-do-sul","stadium":"mercedes","group":"A","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":26,"date":"2026-06-18T16:00:00-03:00","home":"suica","away":"bosnia-herzegovina","stadium":"sofi","group":"B","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":27,"date":"2026-06-18T19:00:00-03:00","home":"canada","away":"qatar","stadium":"bcplace","group":"B","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":28,"date":"2026-06-18T22:00:00-03:00","home":"mexico","away":"coreia-do-sul","stadium":"akron","group":"A","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+
+  {"id":29,"date":"2026-06-19T16:00:00-03:00","home":"eua","away":"australia","stadium":"lumen","group":"D","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":30,"date":"2026-06-19T19:00:00-03:00","home":"escocia","away":"marrocos","stadium":"gillette","group":"C","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":31,"date":"2026-06-19T21:30:00-03:00","home":"brasil","away":"haiti","stadium":"lincoln","group":"C","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+
+  {"id":32,"date":"2026-06-20T00:00:00-03:00","home":"turquia","away":"paraguai","stadium":"levis","group":"D","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":33,"date":"2026-06-20T14:00:00-03:00","home":"paises-baixos","away":"suecia","stadium":"nrg","group":"F","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":34,"date":"2026-06-20T17:00:00-03:00","home":"alemanha","away":"costa-do-marfim","stadium":"bmfield","group":"E","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":35,"date":"2026-06-20T21:00:00-03:00","home":"equador","away":"curacao","stadium":"arrowhead","group":"E","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+
+  {"id":36,"date":"2026-06-21T01:00:00-03:00","home":"tunisia","away":"japao","stadium":"bbva","group":"F","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":37,"date":"2026-06-21T13:00:00-03:00","home":"espanha","away":"arabia-saudita","stadium":"mercedes","group":"H","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":38,"date":"2026-06-21T16:00:00-03:00","home":"belgica","away":"ira","stadium":"sofi","group":"G","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":39,"date":"2026-06-21T19:00:00-03:00","home":"uruguai","away":"cabo-verde","stadium":"hardrock","group":"H","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":40,"date":"2026-06-21T22:00:00-03:00","home":"nova-zelandia","away":"egito","stadium":"bcplace","group":"G","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+
+  {"id":41,"date":"2026-06-22T14:00:00-03:00","home":"argentina","away":"austria","stadium":"att","group":"J","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":42,"date":"2026-06-22T18:00:00-03:00","home":"franca","away":"iraque","stadium":"lincoln","group":"I","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":43,"date":"2026-06-22T21:00:00-03:00","home":"noruega","away":"senegal","stadium":"metlife","group":"I","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+
+  {"id":44,"date":"2026-06-23T00:00:00-03:00","home":"jordania","away":"argelia","stadium":"levis","group":"J","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":45,"date":"2026-06-23T14:00:00-03:00","home":"portugal","away":"uzbequistao","stadium":"nrg","group":"K","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":46,"date":"2026-06-23T17:00:00-03:00","home":"england","away":"gana","stadium":"gillette","group":"L","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":47,"date":"2026-06-23T20:00:00-03:00","home":"panama","away":"croacia","stadium":"bmfield","group":"L","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+  {"id":48,"date":"2026-06-23T23:00:00-03:00","home":"colombia","away":"rd-congo","stadium":"akron","group":"K","stage":"fase-de-grupos","matchday":2,"home_score":null,"away_score":null},
+
+  {"id":49,"date":"2026-06-24T16:00:00-03:00","home":"suica","away":"canada","stadium":"bcplace","group":"B","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":50,"date":"2026-06-24T16:00:00-03:00","home":"bosnia-herzegovina","away":"qatar","stadium":"lumen","group":"B","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":51,"date":"2026-06-24T19:00:00-03:00","home":"escocia","away":"brasil","stadium":"hardrock","group":"C","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":52,"date":"2026-06-24T19:00:00-03:00","home":"marrocos","away":"haiti","stadium":"mercedes","group":"C","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":53,"date":"2026-06-24T22:00:00-03:00","home":"republica-tcheca","away":"mexico","stadium":"azteca","group":"A","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":54,"date":"2026-06-24T22:00:00-03:00","home":"africa-do-sul","away":"coreia-do-sul","stadium":"bbva","group":"A","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+
+  {"id":55,"date":"2026-06-25T17:00:00-03:00","home":"curacao","away":"costa-do-marfim","stadium":"lincoln","group":"E","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":56,"date":"2026-06-25T17:00:00-03:00","home":"equador","away":"alemanha","stadium":"metlife","group":"E","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":57,"date":"2026-06-25T20:00:00-03:00","home":"japao","away":"suecia","stadium":"att","group":"F","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":58,"date":"2026-06-25T20:00:00-03:00","home":"tunisia","away":"paises-baixos","stadium":"arrowhead","group":"F","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":59,"date":"2026-06-25T23:00:00-03:00","home":"turquia","away":"eua","stadium":"sofi","group":"D","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":60,"date":"2026-06-25T23:00:00-03:00","home":"paraguai","away":"australia","stadium":"levis","group":"D","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+
+  {"id":61,"date":"2026-06-26T16:00:00-03:00","home":"noruega","away":"franca","stadium":"gillette","group":"I","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":62,"date":"2026-06-26T16:00:00-03:00","home":"senegal","away":"iraque","stadium":"bmfield","group":"I","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":63,"date":"2026-06-26T21:00:00-03:00","home":"cabo-verde","away":"arabia-saudita","stadium":"nrg","group":"H","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":64,"date":"2026-06-26T21:00:00-03:00","home":"uruguai","away":"espanha","stadium":"akron","group":"H","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+
+  {"id":65,"date":"2026-06-27T00:00:00-03:00","home":"egito","away":"ira","stadium":"lumen","group":"G","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":66,"date":"2026-06-27T00:00:00-03:00","home":"nova-zelandia","away":"belgica","stadium":"bcplace","group":"G","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":67,"date":"2026-06-27T18:00:00-03:00","home":"panama","away":"england","stadium":"metlife","group":"L","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":68,"date":"2026-06-27T18:00:00-03:00","home":"croacia","away":"gana","stadium":"lincoln","group":"L","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":69,"date":"2026-06-27T20:30:00-03:00","home":"colombia","away":"portugal","stadium":"hardrock","group":"K","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":70,"date":"2026-06-27T20:30:00-03:00","home":"rd-congo","away":"uzbequistao","stadium":"mercedes","group":"K","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":71,"date":"2026-06-27T23:00:00-03:00","home":"argelia","away":"austria","stadium":"arrowhead","group":"J","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null},
+  {"id":72,"date":"2026-06-27T23:00:00-03:00","home":"jordania","away":"argentina","stadium":"att","group":"J","stage":"fase-de-grupos","matchday":3,"home_score":null,"away_score":null}
+]

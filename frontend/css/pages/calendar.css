@@ -1,0 +1,21 @@
+.calendar-page { padding: var(--sp-6) 0 var(--sp-12); }
+
+.calendar-filters {
+  position: sticky; top: var(--nav-h); z-index: 10;
+  background: rgba(13,15,26,0.95); backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: var(--sp-4) 0; margin-bottom: var(--sp-6);
+}
+
+.calendar-search-wrap { position: relative; margin-bottom: var(--sp-3); }
+.calendar-search-icon { position: absolute; left: var(--sp-3); top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: var(--text-sm); pointer-events: none; }
+.calendar-search {
+  width: 100%; padding: var(--sp-3) var(--sp-4) var(--sp-3) var(--sp-10);
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); color: var(--text-primary); font: inherit;
+  transition: border-color var(--transition); font-size: var(--text-sm);
+}
+.calendar-search:focus { outline: none; border-color: var(--gold-dim); box-shadow: 0 0 0 3px rgba(201,168,76,0.08); }
+.calendar-search::placeholder { color: var(--text-muted); }
+
+.calendar-matches { display: flex; flex-direction: column; gap: var(--sp-3); }

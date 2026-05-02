@@ -1,0 +1,61 @@
+[
+  {"id":"mexico","name":"México","flag_code":"mx","flag_emoji":"🇲🇽","group":"A","confederation":"CONCACAF","coach":"Javier Aguirre","fifa_rank":14,"world_cups":17,"titles":0,"title_years":[]},
+  {"id":"africa-do-sul","name":"África do Sul","flag_code":"za","flag_emoji":"🇿🇦","group":"A","confederation":"CAF","coach":"Hugo Broos","fifa_rank":55,"world_cups":3,"titles":0,"title_years":[]},
+  {"id":"coreia-do-sul","name":"Coreia do Sul","flag_code":"kr","flag_emoji":"🇰🇷","group":"A","confederation":"AFC","coach":"Hong Myung-bo","fifa_rank":22,"world_cups":11,"titles":0,"title_years":[]},
+  {"id":"republica-tcheca","name":"República Tcheca","flag_code":"cz","flag_emoji":"🇨🇿","group":"A","confederation":"UEFA","coach":"Ivan Hašek","fifa_rank":37,"world_cups":0,"titles":0,"title_years":[]},
+
+  {"id":"canada","name":"Canadá","flag_code":"ca","flag_emoji":"🇨🇦","group":"B","confederation":"CONCACAF","coach":"Jesse Marsch","fifa_rank":43,"world_cups":2,"titles":0,"title_years":[]},
+  {"id":"bosnia-herzegovina","name":"Bósnia-Herzegovina","flag_code":"ba","flag_emoji":"🇧🇦","group":"B","confederation":"UEFA","coach":"A definir","fifa_rank":53,"world_cups":1,"titles":0,"title_years":[]},
+  {"id":"qatar","name":"Qatar","flag_code":"qa","flag_emoji":"🇶🇦","group":"B","confederation":"AFC","coach":"A definir","fifa_rank":60,"world_cups":1,"titles":0,"title_years":[]},
+  {"id":"suica","name":"Suíça","flag_code":"ch","flag_emoji":"🇨🇭","group":"B","confederation":"UEFA","coach":"A definir","fifa_rank":20,"world_cups":11,"titles":0,"title_years":[]},
+
+  {"id":"brasil","name":"Brasil","flag_code":"br","flag_emoji":"🇧🇷","group":"C","confederation":"CONMEBOL","coach":"Dorival Júnior","fifa_rank":5,"world_cups":22,"titles":5,"title_years":[1958,1962,1970,1994,2002]},
+  {"id":"marrocos","name":"Marrocos","flag_code":"ma","flag_emoji":"🇲🇦","group":"C","confederation":"CAF","coach":"Walid Regragui","fifa_rank":12,"world_cups":6,"titles":0,"title_years":[]},
+  {"id":"haiti","name":"Haiti","flag_code":"ht","flag_emoji":"🇭🇹","group":"C","confederation":"CONCACAF","coach":"A definir","fifa_rank":88,"world_cups":1,"titles":0,"title_years":[]},
+  {"id":"escocia","name":"Escócia","flag_code":"gb-sct","flag_emoji":"🏴󠁧󠁢󠁳󠁣󠁴󠁿","group":"C","confederation":"UEFA","coach":"A definir","fifa_rank":35,"world_cups":8,"titles":0,"title_years":[]},
+
+  {"id":"eua","name":"Estados Unidos","flag_code":"us","flag_emoji":"🇺🇸","group":"D","confederation":"CONCACAF","coach":"Mauricio Pochettino","fifa_rank":13,"world_cups":11,"titles":0,"title_years":[]},
+  {"id":"paraguai","name":"Paraguai","flag_code":"py","flag_emoji":"🇵🇾","group":"D","confederation":"CONMEBOL","coach":"Gustavo Alfaro","fifa_rank":57,"world_cups":8,"titles":0,"title_years":[]},
+  {"id":"australia","name":"Austrália","flag_code":"au","flag_emoji":"🇦🇺","group":"D","confederation":"AFC","coach":"Tony Popovic","fifa_rank":24,"world_cups":5,"titles":0,"title_years":[]},
+  {"id":"turquia","name":"Turquia","flag_code":"tr","flag_emoji":"🇹🇷","group":"D","confederation":"UEFA","coach":"Vincenzo Montella","fifa_rank":36,"world_cups":2,"titles":0,"title_years":[]},
+
+  {"id":"alemanha","name":"Alemanha","flag_code":"de","flag_emoji":"🇩🇪","group":"E","confederation":"UEFA","coach":"Julian Nagelsmann","fifa_rank":9,"world_cups":20,"titles":4,"title_years":[1954,1974,1990,2014]},
+  {"id":"curacao","name":"Curaçao","flag_code":"cw","flag_emoji":"🇨🇼","group":"E","confederation":"CONCACAF","coach":"A definir","fifa_rank":115,"world_cups":0,"titles":0,"title_years":[]},
+  {"id":"costa-do-marfim","name":"Costa do Marfim","flag_code":"ci","flag_emoji":"🇨🇮","group":"E","confederation":"CAF","coach":"Emerse Faé","fifa_rank":47,"world_cups":3,"titles":0,"title_years":[]},
+  {"id":"equador","name":"Equador","flag_code":"ec","flag_emoji":"🇪🇨","group":"E","confederation":"CONMEBOL","coach":"Sebastián Beccacece","fifa_rank":42,"world_cups":4,"titles":0,"title_years":[]},
+
+  {"id":"paises-baixos","name":"Países Baixos","flag_code":"nl","flag_emoji":"🇳🇱","group":"F","confederation":"UEFA","coach":"Ronald Koeman","fifa_rank":7,"world_cups":11,"titles":0,"title_years":[]},
+  {"id":"japao","name":"Japão","flag_code":"jp","flag_emoji":"🇯🇵","group":"F","confederation":"AFC","coach":"Hajime Moriyasu","fifa_rank":17,"world_cups":7,"titles":0,"title_years":[]},
+  {"id":"suecia","name":"Suécia","flag_code":"se","flag_emoji":"🇸🇪","group":"F","confederation":"UEFA","coach":"Jon Dahl Tomasson","fifa_rank":28,"world_cups":12,"titles":0,"title_years":[]},
+  {"id":"tunisia","name":"Tunísia","flag_code":"tn","flag_emoji":"🇹🇳","group":"F","confederation":"CAF","coach":"A definir","fifa_rank":62,"world_cups":6,"titles":0,"title_years":[]},
+
+  {"id":"belgica","name":"Bélgica","flag_code":"be","flag_emoji":"🇧🇪","group":"G","confederation":"UEFA","coach":"A definir","fifa_rank":8,"world_cups":14,"titles":0,"title_years":[]},
+  {"id":"egito","name":"Egito","flag_code":"eg","flag_emoji":"🇪🇬","group":"G","confederation":"CAF","coach":"Emad El-Naka","fifa_rank":43,"world_cups":3,"titles":0,"title_years":[]},
+  {"id":"ira","name":"Irã","flag_code":"ir","flag_emoji":"🇮🇷","group":"G","confederation":"AFC","coach":"Amir Ghalenoei","fifa_rank":23,"world_cups":6,"titles":0,"title_years":[]},
+  {"id":"nova-zelandia","name":"Nova Zelândia","flag_code":"nz","flag_emoji":"🇳🇿","group":"G","confederation":"OFC","coach":"A definir","fifa_rank":98,"world_cups":2,"titles":0,"title_years":[]},
+
+  {"id":"espanha","name":"Espanha","flag_code":"es","flag_emoji":"🇪🇸","group":"H","confederation":"UEFA","coach":"Luis de la Fuente","fifa_rank":3,"world_cups":16,"titles":1,"title_years":[2010]},
+  {"id":"cabo-verde","name":"Cabo Verde","flag_code":"cv","flag_emoji":"🇨🇻","group":"H","confederation":"CAF","coach":"A definir","fifa_rank":82,"world_cups":0,"titles":0,"title_years":[]},
+  {"id":"arabia-saudita","name":"Arábia Saudita","flag_code":"sa","flag_emoji":"🇸🇦","group":"H","confederation":"AFC","coach":"Roberto Mancini","fifa_rank":51,"world_cups":6,"titles":0,"title_years":[]},
+  {"id":"uruguai","name":"Uruguai","flag_code":"uy","flag_emoji":"🇺🇾","group":"H","confederation":"CONMEBOL","coach":"Marcelo Bielsa","fifa_rank":10,"world_cups":14,"titles":2,"title_years":[1930,1950]},
+
+  {"id":"franca","name":"França","flag_code":"fr","flag_emoji":"🇫🇷","group":"I","confederation":"UEFA","coach":"Didier Deschamps","fifa_rank":2,"world_cups":16,"titles":2,"title_years":[1998,2018]},
+  {"id":"senegal","name":"Senegal","flag_code":"sn","flag_emoji":"🇸🇳","group":"I","confederation":"CAF","coach":"Aliou Cissé","fifa_rank":18,"world_cups":3,"titles":0,"title_years":[]},
+  {"id":"iraque","name":"Iraque","flag_code":"iq","flag_emoji":"🇮🇶","group":"I","confederation":"AFC","coach":"A definir","fifa_rank":65,"world_cups":2,"titles":0,"title_years":[]},
+  {"id":"noruega","name":"Noruega","flag_code":"no","flag_emoji":"🇳🇴","group":"I","confederation":"UEFA","coach":"Ståle Solbakken","fifa_rank":27,"world_cups":3,"titles":0,"title_years":[]},
+
+  {"id":"argentina","name":"Argentina","flag_code":"ar","flag_emoji":"🇦🇷","group":"J","confederation":"CONMEBOL","coach":"Lionel Scaloni","fifa_rank":1,"world_cups":18,"titles":3,"title_years":[1978,1986,2022]},
+  {"id":"argelia","name":"Argélia","flag_code":"dz","flag_emoji":"🇩🇿","group":"J","confederation":"CAF","coach":"Vladimir Petkovic","fifa_rank":34,"world_cups":4,"titles":0,"title_years":[]},
+  {"id":"austria","name":"Áustria","flag_code":"at","flag_emoji":"🇦🇹","group":"J","confederation":"UEFA","coach":"Ralf Rangnick","fifa_rank":21,"world_cups":7,"titles":0,"title_years":[]},
+  {"id":"jordania","name":"Jordânia","flag_code":"jo","flag_emoji":"🇯🇴","group":"J","confederation":"AFC","coach":"A definir","fifa_rank":87,"world_cups":0,"titles":0,"title_years":[]},
+
+  {"id":"portugal","name":"Portugal","flag_code":"pt","flag_emoji":"🇵🇹","group":"K","confederation":"UEFA","coach":"Roberto Martínez","fifa_rank":6,"world_cups":8,"titles":0,"title_years":[]},
+  {"id":"rd-congo","name":"RD Congo","flag_code":"cd","flag_emoji":"🇨🇩","group":"K","confederation":"CAF","coach":"A definir","fifa_rank":72,"world_cups":1,"titles":0,"title_years":[]},
+  {"id":"uzbequistao","name":"Uzbequistão","flag_code":"uz","flag_emoji":"🇺🇿","group":"K","confederation":"AFC","coach":"Srecko Katanec","fifa_rank":68,"world_cups":0,"titles":0,"title_years":[]},
+  {"id":"colombia","name":"Colômbia","flag_code":"co","flag_emoji":"🇨🇴","group":"K","confederation":"CONMEBOL","coach":"Néstor Lorenzo","fifa_rank":11,"world_cups":7,"titles":0,"title_years":[]},
+
+  {"id":"england","name":"Inglaterra","flag_code":"gb-eng","flag_emoji":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","group":"L","confederation":"UEFA","coach":"Thomas Tuchel","fifa_rank":4,"world_cups":16,"titles":1,"title_years":[1966]},
+  {"id":"croacia","name":"Croácia","flag_code":"hr","flag_emoji":"🇭🇷","group":"L","confederation":"UEFA","coach":"Zlatko Dalić","fifa_rank":20,"world_cups":5,"titles":0,"title_years":[]},
+  {"id":"gana","name":"Gana","flag_code":"gh","flag_emoji":"🇬🇭","group":"L","confederation":"CAF","coach":"A definir","fifa_rank":60,"world_cups":4,"titles":0,"title_years":[]},
+  {"id":"panama","name":"Panamá","flag_code":"pa","flag_emoji":"🇵🇦","group":"L","confederation":"CONCACAF","coach":"Thomas Christiansen","fifa_rank":63,"world_cups":2,"titles":0,"title_years":[]}
+]
